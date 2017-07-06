@@ -1,0 +1,68 @@
+body,html{
+  width:1200px;
+  height:100%px;
+  padding:0;
+  margin:0;
+  margin-top: 10px;
+  bottom: 10px
+}
+
+#videoAndConsoleArea{
+   background-color: #00BCD4;;
+   float: right;
+   position: absolute;
+   height: 100%;
+   right: 0;
+   left:1200px;
+   overflow-y: scroll;
+}
+
+#consoleArea{
+  background-color: BurlyWood;
+  float: left;
+  height: 100%;
+  right: 0;
+  width: 100%; 
+  display: inline;   
+}
+
+#dragbar{
+   background-color:red;
+   height:100%;
+   float: right;
+   width: 3px;
+   cursor: col-resize;
+}
+
+#newDragbar{
+   background-color:black;
+   height:5px;
+   float: left;
+   width: 100%;
+   cursor: row-resize;
+}
+
+#codeArea{
+   background-color: #000000;
+   width:1200px;
+   float: left;
+   position: absolute;
+   height:100%;
+   overflow-y: hidden;
+}
+
+#videoArea{
+   background-color: IndianRed;   
+   width:100%;
+   float: left;
+   height:40%;
+   overflow-y: hidden;
+}
+
+#ghostbar{
+    width:3px;
+    background-color:#000;
+    opacity:0.5;
+    position:absolute;
+    cursor: col-resize;
+    z-index:999}
